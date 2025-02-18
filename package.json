@@ -15,8 +15,8 @@
     "test": "ng test",
     "prepare": "husky",
     "lint": "ng lint",
-    "build:single-spa:angular-parcel-app": "ng build angular-parcel-app --configuration production",
-    "serve:single-spa:angular-parcel-app": "ng s --project angular-parcel-app --disable-host-check --port 20242 --live-reload false"
+    "build:single-spa": "ng build angular-parcel-app --configuration production",
+    "serve:single-spa": "ng s --project angular-parcel-app --disable-host-check --port 20242 --live-reload false"
   },
   "private": true,
   "dependencies": {
