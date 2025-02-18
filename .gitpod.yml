@@ -7,8 +7,8 @@
 tasks:
   - name: Angular 18
     before: nvm install v20.13.1
-    init: yarn install && yarn run build
-    command: yarn run start
+    init: yarn install && yarn run build:single-spa:angular-parcel-app
+    command: yarn run serve:single-spa:angular-parcel-app
 vscode:
   extensions:
     - angular.ng-template
