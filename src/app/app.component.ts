@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+// import { RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-angular-parcel',
+  selector: 'app-sspa-angular-parcel',
   standalone: true,
-  imports: [RouterOutlet],
+  // imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
