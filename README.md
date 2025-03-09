@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.1.
 
+> A **single-spa parcel** is essentially a reusable component within the Single-SPA framework that allows you to share UI elements across different frameworks within a single application, **similar to how a web component functions**, but with the added functionality of lifecycle management and **framework-agnostic mounting** provided by Single-SPA; essentially, a **parcel is a Single-SPA specific implementation of a web component**, designed to seamlessly integrate components built with different frameworks into a single page application
+
 ## Cloning Guide
 
 1.  Clone only the remote primary HEAD (default: origin/master)
@@ -224,3 +226,5 @@ To configure the pre-commit hook, simply add a `precommit` npm script. We want t
 
 - [GitHub Actions for Angular](https://github.com/rodrigokamada/angular-github-actions)
 - [Angular 16 - milestone release](https://github.com/actionanand/ng16-signal-milestone-release)
+- [3d box css](https://codepen.io/amit_sheen/pen/ZEJdamr)
+- [125+ CSS Cards](https://freefrontend.com/css-cards/)

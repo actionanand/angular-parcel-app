@@ -1,3 +1,24 @@
-{{ title }}
-
 <!-- <router-outlet /> -->
+
+<div class="card-container">
+  <div class="card">
+    <h3 class="todo">{{ title }}</h3>
+    <div class="todo-title">{{ todo.title }}</div>
+    <div class="todo-status">
+      The todo status is <strong class="todo-underline"> {{ todo.isDone ? 'Done' : 'Open' }} </strong>
+    </div>
+    <div class="todo-np"><em> NP: </em> This popup shows the information about the latest todo</div>
+    <div class="layers">
+      <div class="layer"></div>
+      <div class="layer"></div>
+      <div class="layer"></div>
+      <div class="layer"></div>
+      <div class="layer"></div>
+      <div class="layer"></div>
+      <div class="layer"></div>
+      <div class="layer"></div>
+      <div class="layer"></div>
+      <div class="layer"></div>
+    </div>
+  </div>
+</div>
