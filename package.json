@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "build:gh": "ng build --base-href /angular-parcel-app/",
-    "copy-error-page": "cp dist/angular-parcel-app/browser/index.html dist/angular-parcel-app/browser/404.html",
+    "copy-error-page": "cp dist/angular-parcel-app/index.html dist/angular-parcel-app/404.html",
     "precommit": "run-s format:fix lint",
     "format:fix": "pretty-quick --staged",
     "format:check": "prettier --config ./.prettierrc --list-different \"src/{app,environments,assets}/**/*{.ts,.js,.json,.css,.scss}\"",
