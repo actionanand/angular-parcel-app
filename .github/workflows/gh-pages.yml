@@ -36,5 +36,5 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         base_href: /angular-parcel-app/   # make sure this corresponds to https://<your_username>.github.io/<base_href>/
         deploy_branch: gh-pages 
-        publish_dir: dist/angular-parcel-app/browser
+        publish_dir: dist/angular-parcel-app
         enable_jekyll: true
